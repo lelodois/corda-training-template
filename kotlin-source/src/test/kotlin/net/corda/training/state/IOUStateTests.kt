@@ -31,37 +31,37 @@ class IOUStateTests {
      * Hint: [Amount] is a template class that takes a class parameter of the token you would like an [Amount] of.
      * As we are dealing with cash lent from one Party to another a sensible token to use would be [Currency].
      */
-//    @Test
-//    fun hasIOUAmountFieldOfCorrectType() {
-//        // Does the amount field exist?
-//        IOUState::class.java.getDeclaredField("amount")
-//        // Is the amount field of the correct type?
-//        assertEquals(IOUState::class.java.getDeclaredField("amount").type, Amount::class.java)
-//    }
+    @Test
+    fun hasIOUAmountFieldOfCorrectType() {
+        // Does the amount field exist?
+        IOUState::class.java.getDeclaredField("amount")
+        // Is the amount field of the correct type?
+        assertEquals(IOUState::class.java.getDeclaredField("amount").type, Amount::class.java)
+    }
 
     /**
      * Task 2.
      * TODO: Add a 'lender' property of type [Party] to the [IOUState] class to get this test to pass.
      */
-//    @Test
-//    fun hasLenderFieldOfCorrectType() {
-//        // Does the lender field exist?
-//        IOUState::class.java.getDeclaredField("lender")
-//        // Is the lender field of the correct type?
-//        assertEquals(IOUState::class.java.getDeclaredField("lender").type, Party::class.java)
-//    }
+    @Test
+    fun hasLenderFieldOfCorrectType() {
+        // Does the lender field exist?
+        IOUState::class.java.getDeclaredField("lender")
+        // Is the lender field of the correct type?
+        assertEquals(IOUState::class.java.getDeclaredField("lender").type, Party::class.java)
+    }
 
     /**
      * Task 3.
      * TODO: Add a 'borrower' property of type [Party] to the [IOUState] class to get this test to pass.
      */
-//    @Test
-//    fun hasBorrowerFieldOfCorrectType() {
-//        // Does the borrower field exist?
-//        IOUState::class.java.getDeclaredField("borrower")
-//        // Is the borrower field of the correct type?
-//        assertEquals(IOUState::class.java.getDeclaredField("borrower").type, Party::class.java)
-//    }
+    @Test
+    fun hasBorrowerFieldOfCorrectType() {
+        // Does the borrower field exist?
+        IOUState::class.java.getDeclaredField("borrower")
+        // Is the borrower field of the correct type?
+        assertEquals(IOUState::class.java.getDeclaredField("borrower").type, Party::class.java)
+    }
 
     /**
      * Task 4.
@@ -78,13 +78,13 @@ class IOUStateTests {
      *   [IOUState.amount] property. You can create an instance of the [Amount] class that takes a zero value and a token
      *   representing the currency - which should be the same currency as the [IOUState.amount] property.
      */
-//    @Test
-//    fun hasPaidFieldOfCorrectType() {
-//        // Does the paid field exist?
-//        IOUState::class.java.getDeclaredField("paid")
-//        // Is the paid field of the correct type?
-//        assertEquals(IOUState::class.java.getDeclaredField("paid").type, Amount::class.java)
-//    }
+    @Test
+    fun hasPaidFieldOfCorrectType() {
+        // Does the paid field exist?
+        IOUState::class.java.getDeclaredField("paid")
+        // Is the paid field of the correct type?
+        assertEquals(IOUState::class.java.getDeclaredField("paid").type, Amount::class.java)
+    }
 
     /**
      * Task 5.
